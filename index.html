@@ -62,21 +62,25 @@
   </header>
 
   <figure>
-    <video class ="summer hide" src="./video/video.mp4" autoplay muted loop></video>
-    <video class="winter bgmenu hide" src="./video/snow.mp4" autoplay muted loop></video>
+    <div class="bgVideo">
+      <video class ="summer" src="./video/video.mp4" autoplay muted loop></video>
+    </div>
 
     <article class="text">
       <p>KDT<br/>Project 5TH</p>
       <ul>
-        <li><a href="#" onclick="">
-          <i class="fa-solid fa-fan"></i>
-          <strong>SUMMMER</strong>
-        </a></li>
-
-        <li><a href="#">
-          <i class="fa-regular fa-bookmark bgbtn"></i>
-          <strong>WINTER</strong>
-        </a></li>
+        <li class="summerBtn">
+          <a href="#">
+            <i class="fa-solid fa-fan"></i>
+            <strong>SUMMMER</strong>
+          </a>
+        </li>
+        <li class="winterBtn">
+          <a class="bgbtn" href="#">
+            <i class="fa-regular fa-bookmark"></i>
+            <strong>WINTER</strong>
+          </a>
+        </li>
       </ul>
     </article>
   </figure>
