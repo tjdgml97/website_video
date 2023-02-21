@@ -155,4 +155,7 @@ footer {
   figure .text p {
     font-size: 15vw;
   }
+}
+.winter {
+  z-index: 10;
 }/*# sourceMappingURL=style.css.map */

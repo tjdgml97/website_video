@@ -14,6 +14,7 @@ snbBtn.addEventListener("click", function() {
 bg.addEventListener("click" ,function(){
   if(Winter.classList.contains("hide")){
     Winter.classList.remove("hide");
+    
   }else {
     Winter.classList.add("hide");
   }
