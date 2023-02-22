@@ -158,6 +158,9 @@ footer {
     }
 
     #snb {
+      .btn-menu {
+        display: block;
+      }
       display: block;
       .sub-menu{
         position: absolute;
@@ -183,11 +186,9 @@ footer {
           }
         }
       }
+
     }
 
-    .btn-menu {
-      display: block;
-    }
   }
   
   figure {
